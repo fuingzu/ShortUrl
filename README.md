@@ -19,14 +19,20 @@ Admin:https://short-url-demo.vercel.app/admin (session:123456)
 <img width="583" alt="image" src="https://user-images.githubusercontent.com/79984712/213964020-9b395a45-0d23-4b37-87e4-e41b74670c56.gif">
 
 ## 😜 deploy
-### first part
+### First part
 > Apply for Mongodb database
 Because the short link service needs to store URL data, it is necessary to apply for a free Mongodb database from Mongodb.com for data storage.
 
-In this section, we provide a complete configuration teaching video on the video website "Bilibili", you can go to: [Bilibili](https://) to view.
+I uploaded this tutorial as a video to the following video site:  
+[The first chapter on Youtube](https://youtube.com/watch?v=wH-Hcnl9bg8&si=EnSIkaIECMiOmarE)/[Bilibili](https://www.bilibili.com/video/BV1xY411X7Uz/)  
+
+
 In this section, you will get a Mongodb url, please save it, we will use it in the next section.
 
-### the second part
+***
+
+### The second part
+> Video version: [The second chapter on Youtube](https://youtube.com/watch?v=8LsWTiHbQHU&si=EnSIkaIECMiOmarE)/[Bilibili](https://www.bilibili.com/video/BV1xY411X7Uz/)
 #### 1. Deploy the repository to Vercel:
 > You need to click the button below to go to the Vercel deployment page
 
@@ -54,6 +60,7 @@ When you see this page, the project has been deployed successfully.
 
 
 #### 2. Add environment variables
+
 After the deployment is complete, you need to click the "Continue to Dashboard" button located in the upper right corner of the page
 <img width="181" alt="image" src="https://user-images.githubusercontent.com/79984712/213968419-e6a978aa-59fe-4281-8608-2e62e8ac7c27.png">
 > If you accidentally close this button, you only need to open the item on the homepage.
