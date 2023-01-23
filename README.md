@@ -21,13 +21,40 @@ Admin:https://short-url-demo.vercel.app/admin (session:123456)
 ## 😜 deploy
 ### First part
 > Apply for Mongodb database
+
+> Video version: [The first chapter on Youtube](https://youtube.com/watch?v=wH-Hcnl9bg8&si=EnSIkaIECMiOmarE)/[Bilibili](https://www.bilibili.com/video/BV1xY411X7Uz/)
+
 Because the short link service needs to store URL data, it is necessary to apply for a free Mongodb database from Mongodb.com for data storage.
 
-I uploaded this tutorial as a video to the following video site:  
-[The first chapter on Youtube](https://youtube.com/watch?v=wH-Hcnl9bg8&si=EnSIkaIECMiOmarE)/[Bilibili](https://www.bilibili.com/video/BV1xY411X7Uz/)  
-
-
 In this section, you will get a Mongodb url, please save it, we will use it in the next section.
+
+Open https://account.mongodb.com/account/register to register an account
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/79984712/213992084-84a13904-06c1-458f-a662-543999bf8698.png">
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/79984712/213992242-673cec96-9f27-414e-ba04-929614ac9213.png">
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/79984712/213992292-b2e4df09-3b99-4197-9be7-a6642f784805.png">
+<img width="909" alt="image" src="https://user-images.githubusercontent.com/79984712/213992322-038f8ea1-cf12-4595-9a22-4cd2fd8be36a.png">
+
+Create a database account and record the password of the account
+
+<img width="906" alt="image" src="https://user-images.githubusercontent.com/79984712/213992401-2f597f50-b9bb-4b89-bd99-edf2f6facc74.png">  
+
+Authorize all IP connections
+
+<img width="915" alt="image" src="https://user-images.githubusercontent.com/79984712/213992557-604169c6-207f-4795-a9a2-3e1b28a77243.png">  
+
+create
+
+<img width="129" alt="image" src="https://user-images.githubusercontent.com/79984712/213992674-4283b9f6-ce40-4bd3-9d41-5a0fc1c980da.png">
+<img width="904" alt="image" src="https://user-images.githubusercontent.com/79984712/213992717-2bbd5525-875b-4344-9e67-dc8ee2670b74.png">  
+Click this option
+
+<img width="853" alt="image" src="https://user-images.githubusercontent.com/79984712/213992778-8ac478f8-0fbe-4e5a-a416-9afd018d8db4.png">  
+Copy the connection URL
+
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/79984712/213992829-ba6b8728-f7b7-4721-809f-c6cb0d12506a.png">  
+Replace the "<password>" in the URL with the password you just set
+   
+<img width="584" alt="image" src="https://user-images.githubusercontent.com/79984712/213992971-87292770-b0c9-47d1-b807-b23c79528a54.png">
 
 ***
 
