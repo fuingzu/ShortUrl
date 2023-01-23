@@ -23,7 +23,7 @@ function randomString(len) {
 module.exports =  async (request, response) => {
 
     if (mongodbUrl == undefined || AdminSession == undefined) { // 判断环境变量是否存在
-        response.status(403).json({ "error": '未配置环境变量' })
+        response.status(403).json({ "error": 'Environment variable not configured' })
         return
 
     } else {
@@ -54,9 +54,9 @@ module.exports =  async (request, response) => {
                     case 'login':
                         var session = requestsBody.session
                         if (await checkLoginAssess(session)) {
-                            res = { "success": '登录成功' }
+                            res = { "success": 'success' }
                         } else {
-                            res = { "error": '鉴权失败' }
+                            res = { "error": 'Authentication failed' }
                         }
                         break
                     case 'delete':
@@ -143,7 +143,7 @@ async function getList(requestsQuery, url) { // 获取列表
 
         return (list_)
     } else {
-        return { "error": 'Session 错误' }
+        return { "error": 'Session Err' }
     }
 
 
@@ -168,17 +168,17 @@ async function deleteLink(requestsBody, url) { // 删除链接
 
     if (await checkLoginAssess(session)) {
         if (path == undefined) {
-            return { "error": 'path 不能为空' }
+            return { "error": 'path cannot be empty' }
         } else {
             var deleteData = await deleteLink_(path)
             if (deleteData.deletedCount == 1) {
-                return { "success": '删除成功' }
+                return { "success": 'success' }
             } else {
-                return { "error": '没有找到相关链接' }
+                return { "error": 'Not Found' }
             }
         }
     } else {
-        return { "error": 'Session 错误' }
+        return { "error": 'Session Err' }
     }
 }
 
@@ -220,13 +220,13 @@ async function addLink(requestsBody, url, ip) { // 添加链接
     if (await checkLoginAssess(session)) {
 
         if (link == undefined) {
-            return { "error": '链接不能为空' }
+            return { "error": 'link cannot be empty' }
         } else {
             return {"path":await insertLink(link)}
         }
 
     } else {
-        return { "error": '鉴权失败' }
+        return { "error": 'Authentication failed' }
     }
 }
 
@@ -239,7 +239,7 @@ async function index(requestsBody, url,metmod) { // 索引
 
     // console.log(linkData)
     if (linkData.length == 0) {
-        return { "error": '链接不存在' }
+        return { "error": "Didn't find this link" }
     } else {
         var link = linkData[0]["link"]
         if (metmod == "POST" && getLink == "true") {
