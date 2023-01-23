@@ -3,10 +3,9 @@ A serverless URL shortening service based on Vercel.
 
 ## 🎉 Features
 - serverless
-- The domain name does not need to be filed (especially in mainland China)
 - Automatically prevent duplicate short URLs from being generated
 - Background management page
-   - Added short URL
+   - Add short URL
    - list of short urls
    - remove short url
 - Companion API
