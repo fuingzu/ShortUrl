@@ -70,7 +70,7 @@ Click the "Redeploy" button in the "..." button to the right of the first record
 Check "Redeploy with existing Build Cache." and click the "REDEPLOY" button to redeploy
 <img width="979" alt="image" src="https://user-images.githubusercontent.com/79984712/213969744-7bb050a6-4662-4782-8579-696367ef8482.png">
 When you see this page, the service has been successfully deployed
-<img width="964" alt="image" src="https://user-images.githubusercontent.com/79984712/213972188-197a4429-1eec-4daf-b41e-2ad48cc2e864.png">
+<img width="965" alt="image" src="https://user-images.githubusercontent.com/79984712/213972652-a51b54f9-04ae-4a8d-9b2c-04f3deb52d7f.png">
 You can access the domain name +/admin to access the management page, and the login password is the value of "AdminSession" in the environment variable you set.
 <img width="1038" alt="image" src="https://user-images.githubusercontent.com/79984712/213970084-32bf1ba9-64b0-4760-96cf-7038e4a6fa39.png">
 If you need a custom domain name, you can bind it yourself on the settings page
