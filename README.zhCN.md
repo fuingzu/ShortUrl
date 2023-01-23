@@ -13,6 +13,9 @@
 - 可二次开发
 
 ## 😎 演示
+演示短链:https://short-url-demo.vercel.app/snQaWdG27M  
+管理演示:https://short-url-demo.vercel.app/admin (session:123456)  
+因中国大陆屏蔽了 vercel 的域名，所以需要代理工具才可以访问，如果有自定义域名的话无需担心此问题。
 <img width="583" alt="image" src="https://user-images.githubusercontent.com/79984712/213964020-9b395a45-0d23-4b37-87e4-e41b74670c56.gif">
 
 ## 😜 部署
