@@ -1,4 +1,4 @@
-#ShortUrl
+# ShortUrl
 A serverless URL shortening service based on Vercel.
 
 ## 🎉 Features
@@ -46,15 +46,17 @@ After the pull is complete, Vercel will start project deployment, which is also 
 <img width="951" alt="image" src="https://user-images.githubusercontent.com/79984712/213967842-b9861645-61db-4427-bde7-0274a7fe367c.png">
 
 When you see this page, the project has been deployed successfully.
+<img width="979" alt="image" src="https://user-images.githubusercontent.com/79984712/213971819-93386058-d0bc-46e7-8171-f7cf470944e5.png">
 
-<img width="985" alt="image" src="https://user-images.githubusercontent.com/79984712/213967910-b6738ed0-bf77-4558-b81d-47cbe3a73a5e.png">
+
 
 #### 2. Add environment variables
 After the deployment is complete, you need to click the "Continue to Dashboard" button located in the upper right corner of the page
 <img width="181" alt="image" src="https://user-images.githubusercontent.com/79984712/213968419-e6a978aa-59fe-4281-8608-2e62e8ac7c27.png">
 > If you accidentally close this button, you only need to open the item on the homepage.
 In the new page, click the "Settings" button in the menu bar
-<img width="959" alt="image" src="https://user-images.githubusercontent.com/79984712/213968544-358d4b2c-6fe6-4fc3-8f3a-b47fa61dc496.png">
+
+![image](https://user-images.githubusercontent.com/79984712/213971941-5a59f666-3692-43f1-a0bb-d2948ae5d1b1.png)
 Click the "Environment Variables" button to open the environment variable settings page
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/79984712/213968655-58662c1c-1358-4e91-add1-91503850f7da.png">
 On the environment variable setting page, create new environment variables named "AppSession" and "mongodbUrl" according to the figure below, and write the administrator login credentials and mongodbUrl (obtained in step 1) respectively.
@@ -68,7 +70,7 @@ Click the "Redeploy" button in the "..." button to the right of the first record
 Check "Redeploy with existing Build Cache." and click the "REDEPLOY" button to redeploy
 <img width="979" alt="image" src="https://user-images.githubusercontent.com/79984712/213969744-7bb050a6-4662-4782-8579-696367ef8482.png">
 When you see this page, the service has been successfully deployed
-<img width="977" alt="image" src="https://user-images.githubusercontent.com/79984712/213969881-5d8522bf-73ee-4160-9ce2-e7738adc00a2.png">
+<img width="964" alt="image" src="https://user-images.githubusercontent.com/79984712/213972188-197a4429-1eec-4daf-b41e-2ad48cc2e864.png">
 You can access the domain name +/admin to access the management page, and the login password is the value of "AdminSession" in the environment variable you set.
 <img width="1038" alt="image" src="https://user-images.githubusercontent.com/79984712/213970084-32bf1ba9-64b0-4760-96cf-7038e4a6fa39.png">
 If you need a custom domain name, you can bind it yourself on the settings page
