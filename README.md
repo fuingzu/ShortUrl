@@ -1,6 +1,6 @@
 # ShortUrl
 A serverless URL shortening service based on Vercel.  
-本页还提供：[简体中文版](README.zhCN.md)
+本页还提供：[简体中文版](https://iling.cool/archives/shortUrl-vercel.html)
 
 ## 🎉 Features
 - serverless
