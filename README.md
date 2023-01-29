@@ -64,6 +64,7 @@ Replace the "<password>" in the URL with the password you just set
 > You need to click the button below to go to the Vercel deployment page
 
 [![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/linglaoda/ShortUrl/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flinglaoda%2FShortUrl.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flinglaoda%2FShortUrl?ref=badge_shield)
 
 If you have not logged in or registered Vercel, please click the deployment button above again after registering/logging in according to the page.
 
@@ -111,3 +112,7 @@ When you see this page, the service has been successfully deployed
 You can access the domain name +/admin to access the management page, and the login password is the value of "AdminSession" in the environment variable you set.
 <img width="1038" alt="image" src="https://user-images.githubusercontent.com/79984712/213970084-32bf1ba9-64b0-4760-96cf-7038e4a6fa39.png">
 If you need a custom domain name, you can bind it yourself on the settings page
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flinglaoda%2FShortUrl.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flinglaoda%2FShortUrl?ref=badge_large)
