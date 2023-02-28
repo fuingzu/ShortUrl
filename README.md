@@ -63,7 +63,7 @@ Replace the "<password>" in the URL with the password you just set
 #### 1. Deploy the repository to Vercel:
 > You need to click the button below to go to the Vercel deployment page
 
-[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/linglaoda/ShortUrl/)
+[![Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/fuingzu/ShortUrl/)
 
 If you have not logged in or registered Vercel, please click the deployment button above again after registering/logging in according to the page.
 
