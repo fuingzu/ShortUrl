@@ -239,7 +239,7 @@ async function index(requestsBody, url,metmod) { // 索引
 
     // console.log(linkData)
     if (linkData.length == 0) {
-        return { "error": "Didn't find this link" }
+        return { "error": "Not found this link" }
     } else {
         var link = linkData[0]["link"]
         if (metmod == "POST" && getLink == "true") {
