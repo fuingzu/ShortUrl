@@ -13,8 +13,7 @@ A serverless URL shortening service based on Vercel.
 - Secondary development possible
 
 ## 😎 Demo
-Link:https://short-url-demo.vercel.app/snQaWdG27M  
-Admin:https://short-url-demo.vercel.app/admin (session:123456)
+Link:https://u.iling.uk/eXw8n
 
 <img width="583" alt="image" src="https://user-images.githubusercontent.com/79984712/213964020-9b395a45-0d23-4b37-87e4-e41b74670c56.gif">
 
