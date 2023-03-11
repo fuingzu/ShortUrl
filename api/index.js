@@ -99,7 +99,8 @@ module.exports =  async (request, response) => {
         } else {
             if (res.error == undefined) {
                 if (res.goLink != undefined) { // 如果有goLink则跳转
-                    response.redirect(res.goLink)
+                  // 302 重定向
+                  response.status(302).setHeader('Location', res.goLink)
                 } else {
                     response.status(200).json(res)
                 }
@@ -136,7 +137,7 @@ async function getList(requestsQuery, url) { // 获取列表
 
     if (await checkLoginAssess(session)) {
         var list_ = await getList_()
-        // 倒叙
+        // 倒序
         list_.sort(function (a, b) {
             return b.time - a.time
         })
