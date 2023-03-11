@@ -101,6 +101,7 @@ module.exports =  async (request, response) => {
                 if (res.goLink != undefined) { // 如果有goLink则跳转
                   // 302 重定向
                   response.status(302).setHeader('Location', res.goLink)
+                  response.end()
                 } else {
                     response.status(200).json(res)
                 }
